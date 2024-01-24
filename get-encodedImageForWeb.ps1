@@ -6,4 +6,4 @@ $bytes = Get-Content -Path $imagePath -Encoding Byte
 $base64 = [Convert]::ToBase64String($bytes)
 # Return the base 64 string
 return $base64
-"<img src="data:image/png;base64, $base64" alt="Image">" | set-clipboard
+'<img src="data:image/png;base64, $base64" alt="Image">' | set-clipboard
