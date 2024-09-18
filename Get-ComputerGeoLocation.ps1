@@ -1,3 +1,4 @@
+#http://stackoverflow.com/questions/46287792/ddg#46287884
 Add-Type -AssemblyName System.Device #Required to access System.Device.Location namespace
 $GeoWatcher = New-Object System.Device.Location.GeoCoordinateWatcher #Create the required object
 $GeoWatcher.Start() #Begin resolving current locaton
