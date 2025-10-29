@@ -11,7 +11,7 @@ function Find-ADObject {
 		Use -Last to output last search results
 
 	.LINK
-		Internal Gitea Link	- https://gitea.co.stanislaus.ca.us/ITC-SecurityTeam/Powershell-Modules/src/branch/main/Find-ADObject.psm1
+		Internal Gitea Link	- https://raw.githubusercontent.com/CtrlAltDrink/pwsh/refs/heads/zero/functions/function-Find-ADObject.ps1
 	
 		Powershel Commandlets used:
 			Get-ADComputer	- https://learn.microsoft.com/en-us/powershell/module/activedirectory/get-adcomputer?view=windowsserver2025-ps
@@ -70,7 +70,7 @@ function Find-ADObject {
 	$VerInfo = @{
 			Version = "0.2.0"
 			Build 	= "20250923"
-			Source	= ""
+			Source	= "https://raw.githubusercontent.com/CtrlAltDrink/pwsh/refs/heads/zero/functions/function-Find-ADObject.ps1"
 	}
 
 	# Update checker
